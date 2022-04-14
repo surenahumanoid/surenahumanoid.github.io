@@ -333,7 +333,45 @@ a:hover, a:active, a:focus {
   color: #ffffff;
 }
 
+#about-tile, #research-tile, #devel-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3f0c1f;
+  overflow: hidden;
+}
 
+#about-tile:hover, #research-tile:hover, #devel-tile:hover {
+  box-shadow: 0 1px 5px 1px #1fc8d4;
+}
+
+#research-tile{
+  background: url('../images/home_research.jpg') no-repeat;
+  background-position: center;
+}
+
+#about-tile{
+  background: url('../images/cast.png') no-repeat;
+  background-position: center;
+}
+
+#devel-tile{
+  background: url('../images/devel-home.jpg') no-repeat;
+  background-position: center;
+}
+
+#research-tile span, #about-tile span, #devel-tile span{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  background-color: #000;
+  color: #fff;
+  opacity: 0.6;
+}
 
 /*---------------------------------------
    About section              
