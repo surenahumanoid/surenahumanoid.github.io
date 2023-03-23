@@ -285,7 +285,7 @@ a:hover, a:active, a:focus {
 }
 
 .main-about {
-  background: url('../images/about-bg.jpg') no-repeat;
+  background: url('../images/about_BG.jpg') no-repeat;
 }
 
 .main-single-post {
@@ -818,4 +818,11 @@ footer .footer-copyright {
     padding-bottom: 60px;
   }
 
+}
+
+@media (max-width: 425px) {
+  .navbar-default .navbar-brand {
+    letter-spacing: 3px;
+    font-size: 1em;
+  }
 }
