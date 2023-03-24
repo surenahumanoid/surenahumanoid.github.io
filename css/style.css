@@ -101,7 +101,8 @@ a:hover, a:active, a:focus {
 #about, 
 #gallery,
 #contact,
-#blog, 
+.blog, 
+#blog,
 #blog-single-post {
   padding-top: 60px;
   padding-bottom: 80px;
@@ -109,6 +110,7 @@ a:hover, a:active, a:focus {
 
 .main-about,
 .main-single-post,
+.main-blog,
 .main-gallery,
 .main-contact {
   height: 65vh;
@@ -289,7 +291,7 @@ a:hover, a:active, a:focus {
 }
 
 .main-single-post {
-  background: url('../images/single-post-bg.jpg') no-repeat;
+  background: url('../images/blog-bg.jpeg') no-repeat;
 }
 
 .main-gallery {
@@ -298,6 +300,10 @@ a:hover, a:active, a:focus {
 
 .main-contact {
   background: url('../images/robot-contact.jpg') no-repeat;
+}
+
+.main-blog {
+  background: url('../images/blog-bg.jpeg') no-repeat;
 }
 
 #particles-js {
@@ -498,9 +504,8 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 .blog-post-thumb {
-  border-bottom: 1px solid #f0f0f0;
+  border-bottom: 0px;
   padding-top: 32px;
-  padding-bottom: 62px;
   margin-bottom: 32px;
 }
 
@@ -781,7 +786,8 @@ footer .footer-copyright {
 @media (max-width: 980px) {
 
   .main-about,
-  .main-single-post,  
+  .main-single-post, 
+  .main-blog, 
   .main-gallery,
   .main-contact {
     height: 35vh;
@@ -835,4 +841,35 @@ footer .footer-copyright {
     letter-spacing: 3px;
     font-size: 1em;
   }
+}
+
+.container .pagination{
+  width: 100%;
+  float: left;
+  padding: 15px;
+  text-align: center;
+}
+
+.container .pagination div{
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.container .pagination .page{
+  color:gray;
+}
+
+.container .pagination .prev, .container .pagination .next{
+  color: #000;
+  border: 1px solid #000;
+  font-size: 15px;
+  padding: 7px 15px;
+  cursor: pointer;
+}
+
+.container .pagination .prev.disabled,
+.container .pagination .next.disabled{
+  border-color: gray;
+  color: gray;
+  pointer-events: none;
 }
