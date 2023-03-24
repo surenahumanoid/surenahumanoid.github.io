@@ -293,7 +293,7 @@ a:hover, a:active, a:focus {
 }
 
 .main-gallery {
-  background: url('../images/gallery-bg.jpg') no-repeat;
+  background: url('../images/gallery_bg.jpg') no-repeat;
 }
 
 .main-contact {
@@ -418,6 +418,16 @@ a:hover, a:active, a:focus {
   position: relative;
   top: 0px;
   transition: all 0.4s ease-in-out;
+}
+
+#gallery .col-md-6 {
+  max-height:240px;
+  overflow:hidden;
+}
+
+#gallery iframe {
+  width: 100%;
+  height: 240px;
 }
 
 #gallery .gallery-thumb:hover {
