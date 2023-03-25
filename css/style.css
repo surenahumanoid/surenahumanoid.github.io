@@ -110,6 +110,7 @@ a:hover, a:active, a:focus {
 
 .main-about,
 .main-devel,
+.main-research,
 .main-single-post,
 .main-blog,
 .main-gallery,
@@ -293,6 +294,10 @@ a:hover, a:active, a:focus {
 
 .main-devel {
   background: url('../images/devel-bg.jpg') no-repeat;
+}
+
+.main-research {
+  background: url('../images/research-bg.jpg') no-repeat;
 }
 
 .main-single-post {
@@ -792,6 +797,7 @@ footer .footer-copyright {
 
   .main-about,
   .main-devel,
+  .main-research,
   .main-single-post, 
   .main-blog, 
   .main-gallery,
