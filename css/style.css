@@ -109,6 +109,9 @@ a:hover, a:active, a:focus {
 }
 
 .main-about,
+.main-devel,
+.main-robot,
+.main-research,
 .main-single-post,
 .main-blog,
 .main-gallery,
@@ -288,6 +291,18 @@ a:hover, a:active, a:focus {
 
 .main-about {
   background: url('../images/about_BG.jpg') no-repeat;
+}
+
+.main-devel {
+  background: url('../images/devel-bg.jpg') no-repeat;
+}
+
+.main-research {
+  background: url('../images/research-bg.jpg') no-repeat;
+}
+
+.main-robot {
+  background: url('../images/robot-bg.jpg') no-repeat;
 }
 
 .main-single-post {
@@ -786,6 +801,9 @@ footer .footer-copyright {
 @media (max-width: 980px) {
 
   .main-about,
+  .main-devel,
+  .main-robot,
+  .main-research,
   .main-single-post, 
   .main-blog, 
   .main-gallery,
