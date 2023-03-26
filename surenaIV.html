@@ -54,19 +54,19 @@ http://www.tooplate.com/view/2085-neuron
                <ul class="nav navbar-nav navbar-right">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
-                    <li class="nav-item dropdown">
+                    <li class="active nav-item dropdown">
                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                               Surena Family
                          </a>
                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <a class="dropdown-item" href="surenaI.html">Surena I</I></a><br>
-                              <a class="dropdown-item" href="surenaII.html">Surena II</a><br>
-                              <a class="dropdown-item" href="surenaIII.html">Surena III</a><br>
-                              <a class="dropdown-item" href="surenamini.html">Surena mini</a><br>
-                              <a class="dropdown-item" href="surenaIV.html">Surena IV</a>
+                            <a class="dropdown-item" href="surenaI.html">Surena I</I></a><br>
+                            <a class="dropdown-item" href="surenaII.html">Surena II</a><br>
+                            <a class="dropdown-item" href="surenaIII.html">Surena III</a><br>
+                            <a class="dropdown-item" href="surenamini.html">Surena mini</a><br>
+                            <a class="dropdown-item" href="surenaIV.html">Surena IV</a>
                          </div>
                     </li>
-                    <li class="active nav-item dropdown">
+                    <li class="nav-item dropdown">
                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                               R&D
                          </a>
@@ -86,13 +86,13 @@ http://www.tooplate.com/view/2085-neuron
 
 <!-- Home Section -->
 
-<section id="home" class="main-devel parallax-section">
+<section id="home" class="main-robot parallax-section">
      <div class="overlay"></div>
      <div class="container">
           <div class="row">
 
                <div class="col-md-12 col-sm-12">
-                    <h1>Development</h1>
+                    <h1>Surena IV</h1>
                </div>
 
           </div>
@@ -104,42 +104,31 @@ http://www.tooplate.com/view/2085-neuron
 <section id="about">
      <div class="container">
           <div class="row">
-
                <div class="col-md-offset-1 col-md-10 col-sm-12">
                     <div class="col-md-6 col-sm-6">
-                         <h3>From Simulation to Experiment ...</h3>
-                         <p>Different robotic simulators are used to test the performance of dynamic and control algorithms. 
-                            After that, the algorithms are tested on the robot. In all of these steps, we use Robotic Operating System (ROS). Check out this <a href="https://arxiv.org/abs/2108.13515">paper</a> for more information about the Surena IV robot's hardware and software structure.</p>
-                    </div>
+                        <p>
+                            On December 14, 2019, the fourth generation of Surena humanoid robot was officially unveiled. The performance included both upper and lower body motions, interaction with a host and speech.<br>
+                            The project is funded by the presidential deputy for science and technology and is considered as the symbol of technological advancement in the direction of peace and humanity with the goal of designing an appropriate research platform, more developed than previous versions.<br>
+                            Compared to the third generation (Surena III, 2015) which had 31 DoF, the new adult-sized Humanoid robot has 43 DoF and higher dexterity in the hands, making it able to grip different objects with different shapes.<br>
+                            Surena IV is 1.7 meters tall and has a mass of 68 kilograms; it is much lighter and smaller than Surena III (98 kilograms and 1.9 meters tall) due to the better structure design based on topology optimization, compact customized actuator design, and the SLA 3D printing technology used for its cover.<br>
+                        </p>
+                   </div>
 
-                    <div class="col-md-6 col-sm-6">
-                         <img src="images/devel-exp.jpg" class="img-responsive" alt="Experiment Image">
-                    </div>
+                   <div class="col-md-6 col-sm-6">
+                        <img src="images/surenaIV-page.jpg" class="img-responsive" alt="About Image">
+                   </div>
 
-                    <div class="clearfix"></div>
-
-                    <div class="col-md-4 col-sm-4">
-                         <img src="images/devel-chorono.png"  class="img-responsive" alt="Blog Image">
-                         <h3>Choronoid</h3>
-                         <p>Our main simulator is Choronoid, which provides realistic and reliable results in different conditions.</p>
-                    </div>
-
-                    <div class="col-md-4 col-sm-4">
-                         <img src="images/devel-gazebo.png" class="img-responsive" alt="Blog Image">
-                         <h3>Gazebo</h3>
-                         <p>Because Gazebo is well integerated with the ROS environment, it is used in many of our simulations.</p>
-                    </div>
-
-                    <div class="col-md-4 col-sm-4">
-                         <img src="images/devel-pybullet.png" class="img-responsive" alt="Blog Image">
-                         <h3>Pybullet</h3>
-                         <p>In cases where it is necessary to test algorithms quickly, Pybullet is the most suitable option due to its simplicity.</p>
-                    </div>
-					
-                    <h3>Fully Open Source!</h3>
-                    <p>Various parts of the robot's code can be accessed through <a href="https://github.com/CAST-Robotics" class="fa fa-github"> github</a> as open source. Your contribution is highly appreciated.</p>
+                   <div class="clearfix"></div>
+                        <p>
+                            In the new generation, the control loop frequency has been increased to 200 Hz by exploiting FPGA board, making it possible to implement online controllers and estimators. By the means of Robot Operation System (ROS), state monitoring, real time implementation of algorithms, and simultaneous running of several programs have become straightforward.
+                        </p>
+                        <p>
+                            Improving the robot- interaction with the environment was one of the main goals in the SURENA IV project. The robot has the abilities of face detection and counting, object detection and position measurement, activity detection, speech recognition (speech to text) and speech generation (text to speech), resulting to achieve better voice user interface. Online grip, face and object follow, and action imitation have been implemented by combining AI abilities and whole-body motion planning.
+                        </p>
+                        <p>
+                            While the mean speed of SURENA III was 0.3 kilometers per hour, SURENA IV can walk continuously with a speed of 0.7 kilometers per hour, thanks to the dynamic motion of its center of mass and online controllers.
+                        </p>
                </div>
-
           </div>
      </div>
 </section>
