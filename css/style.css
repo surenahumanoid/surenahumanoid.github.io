@@ -85,6 +85,10 @@ a:hover, a:active, a:focus {
   outline: none;
 }
 
+.nav-item-dropdown:hover .dropdown-menu{
+  display: block;
+}
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
