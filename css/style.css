@@ -443,6 +443,7 @@ a:hover, a:active, a:focus {
   position: relative;
   top: 0px;
   transition: all 0.4s ease-in-out;
+  margin: 10px;
 }
 
 #gallery .col-md-6 {
