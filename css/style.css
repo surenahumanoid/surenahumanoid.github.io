@@ -443,6 +443,7 @@ a:hover, a:active, a:focus {
   position: relative;
   top: 0px;
   transition: all 0.4s ease-in-out;
+  margin: 10px;
 }
 
 #gallery .col-md-6 {
@@ -894,4 +895,28 @@ footer .footer-copyright {
   border-color: gray;
   color: gray;
   pointer-events: none;
+}
+
+th, td {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+.collaborator{
+  height: 200px;
+  width: 150px;
+}
+
+.collaborator:hover{
+  opacity: 0.9;
+}
+
+.collaborators a{
+  color:#4d638c
+}
+
+.collaborators a:hover{
+  color:#bfba55
 }
