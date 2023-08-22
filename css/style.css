@@ -219,14 +219,29 @@ a:hover, a:active, a:focus {
   margin: 0;
 }
 
+.navbar-default .navbar-brand-second {
+  color: #555;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin: 0;
+}
+
+.navbar-brand-third {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .navbar-default .navbar-nav li a {
     color: #777;
     font-size: 16px;
     letter-spacing: 1px;
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
-    padding-right: 22px;
-    padding-left: 22px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .navbar-default .navbar-nav > li a:hover {
@@ -907,7 +922,6 @@ footer .footer-copyright {
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  font-size: 30px;
   text-align: center;
 }
 
