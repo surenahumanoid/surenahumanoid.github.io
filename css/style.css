@@ -234,6 +234,18 @@ a:hover, a:active, a:focus {
   justify-content: center;
 }
 
+.navbar-brand-second h3 {
+  font-size: 3vw;
+}
+
+.navbar-brand-second h5 {
+  font-size: 1.5vw;
+}
+
+.navbar-brand-third img {
+  object-fit: contain;
+}
+
 .navbar-default .navbar-nav li a {
     color: #777;
     font-size: 16px;
