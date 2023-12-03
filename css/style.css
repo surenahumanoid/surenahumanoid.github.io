@@ -601,6 +601,12 @@ a:hover, a:active, a:focus {
   margin-right: 4px;
 }
 
+.blog-post-des
+{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 .blog-post-des blockquote {
   margin: 22px;
 }
