@@ -7,7 +7,7 @@ let index=1;
 
 // const pagination=Math.ceil(photoItems.length/maxItem);
 const pagination=5;
-const cumulativeItem=[0,6,12,36,45,51];
+const cumulativeItem=[0,5,10,34,43,49];
 
 prev.addEventListener("click",function(){
     index--;
